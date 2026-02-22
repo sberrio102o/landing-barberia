@@ -1,0 +1,74 @@
+.body {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url("barber.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo general de los cuadros */
+.box {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3); /* Transparente */
+    padding: 40px;
+    color: #c7b1b1;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/* Posiciones */
+
+.box1 {
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-image: url("images/beard.png");
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.box2 {
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background-image: url("images/haircut.png");
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box3 {
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-image: url("images/hair.cut,beard.png");
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+.box4 {
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
