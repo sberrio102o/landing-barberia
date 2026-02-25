@@ -31,44 +31,52 @@
 /* Posiciones */
 
 .box1 {
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
+    top: 100px;
+    left: 145px;
+    width: 40%;
+    height: 40%;
     background-image: url("images/beard.png");
     background-repeat: no-repeat;
     padding: 40px;
     text-align: center;
-    border-radius: 10px;
-    
+    border-radius: 30px;
+    background-color: rgba(199, 177, 177, 0.8);
+    text-shadow: #000 0px 0 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .box2 {
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 50%;
+    top: 100px;
+    right: 145px;
+    width: 40%;
+    height: 40%;
     background-image: url("images/haircut.png");
     background-repeat: no-repeat;
     padding: 40px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
+    background-color: rgba(199, 177, 177, 0.8);
+    text-shadow: #000 0px 0 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .box3 {
-    bottom: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
+    bottom: 70px;
+    left: 400px;
+    width: 40%;
+    height: 40%;
     background-image: url("images/hair.cut,beard.png");
     background-repeat: no-repeat;
     padding: 40px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
+    background-color: rgba(199, 177, 177, 0.8);
+    text-shadow: #000 0px 0 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .box4 {
     bottom: 0;
-    right: 0;
-    width: 50%;
-    height: 50%;
+    right: 50px;
+    width: 40%;
+    height: 40%;
 }
